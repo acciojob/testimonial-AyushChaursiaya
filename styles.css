@@ -1,4 +1,4 @@
-body {
+/* body {
 	margin: 0px;
 	padding: 0px;
 }
@@ -32,3 +32,40 @@ body {
 	font-style: italic;
 	text-align: right;
 }
+ */
+
+body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        .main-container {
+            padding: 20px;
+            background-color: #ffffff;
+            max-width: 600px;
+            margin: 50px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .testimonial {
+            padding: 15px;
+            border: 1px solid #ccc;
+            background-color: #f5f5f5;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .testimonial p {
+            margin: 0;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .author {
+            text-align: right;
+            font-style: italic;
+            margin-top: 10px;
+        }
